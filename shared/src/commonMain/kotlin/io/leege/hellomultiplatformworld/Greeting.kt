@@ -4,6 +4,6 @@ class Greeting {
     private val platform: Platform = getPlatform()
 
     fun greet(): String {
-        return "Hello, ${platform.name}!"
+        return "Hello, guess what the name is: ${platform.name.reversed()}"
     }
 }
