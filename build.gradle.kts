@@ -4,6 +4,8 @@ plugins {
     id("com.android.library").version("8.0.2").apply(false)
     kotlin("android").version("1.8.21").apply(false)
     kotlin("multiplatform").version("1.8.21").apply(false)
+    id("com.google.devtools.ksp") version "1.8.21-1.0.11"
+    id("com.rickclephas.kmp.nativecoroutines") version "1.0.0-ALPHA-10"
 }
 
 tasks.register("clean", Delete::class) {
